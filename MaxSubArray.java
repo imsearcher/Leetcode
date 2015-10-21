@@ -34,10 +34,7 @@ public class MaxSubArray {
         int tmp=mlmax+mrmax+nums[mid];
         
         return Math.max(Math.max(lmax,rmax),tmp);
-        
-        
-        
-        
+            
         
     }
     public int dpMax(int[] nums){

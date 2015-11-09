@@ -1,6 +1,8 @@
 import java.util.*;
-//need improvement
+//
 //#1 Two Sum
+//need improvement
+//
 public class TwoSum {
     
     public int[] twoSum(int[] nums, int target) {

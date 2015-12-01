@@ -1,5 +1,7 @@
 package com.nyu.alg;
 
+import java.util.Arrays;
+
 public class LCS {
 	private String lcsStr = "";
 
@@ -37,6 +39,8 @@ public class LCS {
 			else
 				i--;
 		}
+		for (int[] row : result) 
+	        System.out.println(Arrays.toString(row));      
 		return result[x.length()][y.length()];
 
 	}
